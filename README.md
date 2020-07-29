@@ -14,3 +14,15 @@ Describe file-browser-cu here.
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+
+
+
+- Render an array of files with the correct css
+- Add listeners as props (onOpenFolder, onOpenFile, onDeleteFile, onRenameFile, onDeleteFolder, onRenameFolder)
+- use Proptypes
+- create context menu with basic functionality (copy, paste, cut, rename)
+- support for icons
+- support to drag and drop
+- support size and last modified
+

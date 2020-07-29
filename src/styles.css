@@ -1,0 +1,34 @@
+h1, h2, h3{
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.file-browser-cu {
+  width: 100%;
+  background: #eee;
+}
+
+.file-browser-cu ul{
+  padding: 0;
+}
+
+.file-browser-cu .file-cu, .file-browser-cu .folder-cu button{
+  padding: 0.4rem 0.3rem;
+  width: 100%;
+  background: #ccc;
+  text-align: left;
+  border: none;
+  border-bottom: 0.5px solid #919191;
+  cursor: pointer;
+} 
+
+
+
+.demo{
+  width: 80%;
+  margin:auto;
+}
+
+
+
