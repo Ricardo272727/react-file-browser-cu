@@ -3,9 +3,6 @@ import "./styles.css";
 
 
 
-// src/ok/ 1 => src/
-// /src/f/index.html 2 => /
-// index.html 3 => ''
 const getFirstFolder = (path) => {
   let slashPosition = path.indexOf('/');
   if(slashPosition !== -1 && slashPosition !== 0){
@@ -183,7 +180,7 @@ function testFileBrowser(props){
   };
 
   return (
-    <div class="demo">
+    <div className="demo">
        <FileBrowserCu 
         files={mockItems}
         onClickFile={onClickFile}
