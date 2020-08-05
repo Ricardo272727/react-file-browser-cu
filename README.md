@@ -20,7 +20,7 @@ Describe file-browser-cu here.
 
 ## Usage 
 
-`
+```javascript
 const files = [
   { path: 'src/functions/styles.css' },
   { path: 'hook.js' },
@@ -57,7 +57,7 @@ function exampleFileBrowser(props){
     </div>
   );
 }
-`
+```
 
 
 
