@@ -16,13 +16,52 @@ Describe file-browser-cu here.
 [coveralls]: https://coveralls.io/github/user/repo
 
 
+# A simple file browser library for react.
+
+## Usage 
+
+`
+const files = [
+  { path: 'src/functions/styles.css' },
+  { path: 'hook.js' },
+  { path: 'src/functions/' }
+];
+
+function exampleFileBrowser(props){
+
+  const onClickFile = (file) => {
+    console.log('click on file', file);
+  };
+
+  const onClickFolder = (folder) => {
+    console.log('click folder', folder);
+  };
+  
+  const onOpenFolder = (folder) => {
+    console.log('open folder', folder);
+  };
+
+  const onCloseFolder = (folder) => {
+    console.log('close folder', folder);
+  };
+
+  return (
+    <div className="demo">
+       <FileBrowserCu 
+        files={files}
+        onClickFile={onClickFile}
+        onClickFolder={onClickFolder}
+        onOpenFolder={onOpenFolder}
+        onCloseFolder={onCloseFolder}
+      />
+    </div>
+  );
+}
+`
 
 
-- Render an array of files with the correct css
-- Add listeners as props (onOpenFolder, onOpenFile, onDeleteFile, onRenameFile, onDeleteFolder, onRenameFolder)
-- use Proptypes
-- create context menu with basic functionality (copy, paste, cut, rename)
-- support for icons
-- support to drag and drop
-- support size and last modified
+
+
+
+
 
